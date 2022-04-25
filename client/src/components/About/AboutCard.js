@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Sahil Bakshi </span>
             from <span className="purple"> New Delhi, India.</span>
-            <br />I'm a 2020 B.tech graduate in the field of Electronics and Communication Engineering from Maharshi Dayanand University. I'm seeking out for an internship or full time position as a Front End, Backend or full-stack Developer.
+            <br />I'm a B.tech graduate in the field of Electronics and Communication Engineering from Maharshi Dayanand University. I'm seeking out for an internship or full time position as a Front End, Backend or full-stack Developer.
             <br />
             <br />
             When I'm not coding, I like to do!

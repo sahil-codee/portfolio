@@ -25,9 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="ToDo-App"
+              description="Mern Stack Todo App, that let user to add a note, read a note and delete a note, we are storing todo data in MongoDB NO SQL DataBas."
+              link="https://themerntodoapp.herokuapp.com/"
             />
           </Col>
 
@@ -35,9 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Meme-Generator"
+              description="This is a random meme generator which will allow user to generate random memes every time when user will hit the button, also user can add custom top and bottom text to the meme for personal customization."
+              link="https://github.com/sahil-codee/meme-generator"
             />
           </Col>
 

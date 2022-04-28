@@ -284,6 +284,35 @@ button:focus {
   }
 }
 
+.about-img {
+  animation: MoveUpDown 5s linear infinite;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 60px;
+  }
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;

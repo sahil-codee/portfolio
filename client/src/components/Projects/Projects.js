@@ -56,7 +56,7 @@ function Projects() {
               imgPath={react}
               isBlog={false}
               title="React-Page"
-              description="This is a static page which is created using pure css and react.js."
+              description="This is a static page displaying some fun facts about React.js. Technologies used like CSS and react.js."
               link="https://sahil-codee.github.io/react-page/"
             />
           </Col>
@@ -66,7 +66,7 @@ function Projects() {
               imgPath={destiny}
               isBlog={false}
               title="Destiny"
-              description="A destiny is a sign-up form UI created using React.js. User can signup  ."
+              description="A destiny is a sign-up form UI created using React.js. User can signup."
               link="https://github.com/sahil-codee/destiny"
             />
           </Col>
@@ -76,8 +76,7 @@ function Projects() {
               imgPath={card}
               isBlog={false}
               title="Digital-Card"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="This is a digital-card that can be shared with other peoples so they can reach out to you with help of given details like mail, social profiles etc."
               link="https://github.com/sahil-codee/digital-card"
             />
           </Col>

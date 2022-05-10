@@ -1,5 +1,5 @@
 <h1>Built With</h1>
-<p>My personal portfolio soumyajit.tech which features some of my github projects as well as my resume and technical skills.</p>
+<p>My personal portfolio which features some of my github projects as well as my resume and technical skills.</p>
 
 <p>This project was built using these technologies.</p>
 

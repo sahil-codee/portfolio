@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import react from "../../Assets/Projects/react.png";
-import card from "../../Assets/Projects/card.png";
+import tinder from "../../Assets/Projects/Tinder.gif";
+import contacts from "../../Assets/Projects/contactcards.png";
 import airbnb from "../../Assets/Projects/airbnb.png";
 import todo from "../../Assets/Projects/todo.png";
-import destiny from "../../Assets/Projects/destiny.png";
+import facebook from "../../Assets/Projects/fb.gif";
 import meme from "../../Assets/Projects/meme.png";
 
 function Projects() {
@@ -21,6 +21,35 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tinder}
+              isBlog={false}
+              title="Tinder-Clone"
+              description="A Tinder Clone application that you can use to right swipe and left swipe on people cards. We are storing each of the cards with image URL and name in our MongoDB No SQL Database. We have hosted our app backend on Heroku and Front End on Firebase."
+              link="https://github.com/sahil-codee/tinder-clone"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={facebook}
+              isBlog={false}
+              title="Facebook-Clone"
+              description="A Facebook Clone application that you can sign in with your Google Account and send realtime posts. We have used Context Api(Redux pattern) to push the login user inside the data layer to use in our components. We have hosted our app live on Firebase."
+              link="https://github.com/sahil-codee/fb-clone"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={contacts}
+              isBlog={false}
+              title="Contact-Cards"
+              description="It Fetches data from an API to display random contact cards. Also, you can select a specific card that will display detailed information for that selected card on top of the cards."
+              link="https://sk-contact-cards.netlify.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={todo}
@@ -48,36 +77,6 @@ function Projects() {
               title="Air-bnb Clone"
               description="Airbnb experience clone which displays unique interactive activities led by one-of-a-kind hosts also user can see the ratings and availability of the activities."
               link="https://github.com/sahil-codee/air-bnb"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={react}
-              isBlog={false}
-              title="React-Page"
-              description="This is a static page displaying some fun facts about React.js. Technologies used like CSS and react.js."
-              link="https://sahil-codee.github.io/react-page/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={destiny}
-              isBlog={false}
-              title="Destiny"
-              description="A destiny is a sign-up form UI created using React.js. User can signup."
-              link="https://github.com/sahil-codee/destiny"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={card}
-              isBlog={false}
-              title="Digital-Card"
-              description="This is a digital-card that can be shared with other peoples so they can reach out to you with help of given details like mail, social profiles etc."
-              link="https://github.com/sahil-codee/digital-card"
             />
           </Col>
         </Row>
